@@ -1,0 +1,49 @@
+.date_inv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+}
+.date {
+  display: inline;
+}
+.date h3 {
+  display: inline;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-right: 2px;
+}
+.date span {
+  font-size: 0.75em;
+  font-weight: 200;
+}
+.invoice {
+  display: inline;
+}
+.invoice h3 {
+  display: inline;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-right: 4px;
+}
+.invoice input {
+  width: 3em;
+}
+.due_date {
+  display: inline;
+}
+.due_date h3 {
+  display: inline;
+  font-size: 0.8em;
+  font-weight: 600;
+  margin-right: 2px;
+}
+
+@media (max-width: 450px) {
+  .date_inv {
+    display: block;
+  }
+  .date {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+}

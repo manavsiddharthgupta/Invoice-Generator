@@ -1,0 +1,21 @@
+.notes_form {
+  margin: 0.5em 0em;
+  padding: 1em 0em;
+}
+.notes_form span {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.notes_form textarea {
+  margin-top: 0.5em;
+  width: 100%;
+  padding: 4px;
+  outline-color: #b7d6ff;
+  outline-offset: 2px;
+  outline-width: thick;
+  background-color: #f2f6ff;
+  border-radius: 3px;
+  border: none;
+  color: #313131;
+  font-weight: 200;
+}

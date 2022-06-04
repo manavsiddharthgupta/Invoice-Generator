@@ -1,0 +1,30 @@
+.amount_outer {
+  width: 100%;
+  margin-top: 1em;
+  display: flex;
+  justify-content: flex-end;
+}
+.amount_data {
+  width: 400px;
+}
+.tt {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.35em;
+}
+.tt span {
+  font-size: 0.85em;
+  font-weight: 100;
+}
+span.th {
+  font-weight: 600;
+}
+span.total_h {
+  font-size: 1em;
+  font-weight: 700;
+}
+.break {
+  border: 1px solid #8e8e8e;
+  background-color: #8e8e8e;
+  margin: 0.5em 0em;
+}

@@ -1,0 +1,12 @@
+.main_form {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+@media (max-width: 860px) {
+  .main_form {
+    flex-wrap: wrap;
+  }
+}

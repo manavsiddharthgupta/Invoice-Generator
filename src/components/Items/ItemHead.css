@@ -1,0 +1,44 @@
+.item_head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0em;
+  margin-bottom: 0.25em;
+}
+.item_head span {
+  margin: 0em 0.25em;
+  font-size: 0.835em;
+  font-weight: 700;
+}
+.itm_h {
+  flex-grow: 11.1;
+}
+.qty_h {
+  flex-grow: 0.95;
+}
+.prc_h {
+  flex-grow: 1.2;
+}
+.amnt_h {
+  flex-grow: 0.6;
+}
+.act_h {
+  flex-grow: 0.1;
+}
+
+@media (max-width: 550px) {
+  .itm_h {
+    flex-grow: 7;
+  }
+  .qty_h {
+    flex-grow: 2.7;
+  }
+  .prc_h {
+    flex-grow: 1.8;
+  }
+  .amnt_h {
+    flex-grow: 1.1;
+  }
+  .act_h {
+    flex-grow: 0.3;
+  }
+}

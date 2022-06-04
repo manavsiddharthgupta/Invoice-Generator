@@ -1,0 +1,15 @@
+.all_input {
+  padding: 4px;
+  outline-color: #b7d6ff;
+  outline-offset: 2px;
+  outline-width: thick;
+  background-color: #f2f6ff;
+  border-radius: 3px;
+  border: none;
+  color: #313131;
+  font-weight: 200;
+}
+.all_input::-ms-input-placeholder {
+  color: #787878;
+  font-weight: 100;
+}

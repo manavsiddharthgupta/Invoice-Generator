@@ -1,0 +1,89 @@
+.ReviewModal_inner {
+  width: 100%;
+  background-color: white;
+  height: 80%;
+  border-radius: 10px;
+  overflow-y: auto;
+  padding: 1em;
+}
+/* .ReviewModal_inner div {
+      height: 900px;
+    } */
+.invoice_head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.curr_date {
+  color: rgb(94, 94, 94);
+  font-weight: 200;
+}
+.date_amnt {
+  text-align: right;
+  font-weight: 700;
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+.invoice_head div span {
+  color: rgb(94, 94, 94);
+  font-weight: 300;
+  font-size: 0.9em;
+}
+.Billed_from {
+  line-height: 1.4em;
+}
+.Billed_from h1 {
+  font-size: 1.3em;
+}
+.Billed_from h3 {
+  font-size: 0.8em;
+}
+.Billed_from p {
+  color: rgb(94, 94, 94);
+  font-size: 0.9em;
+  font-weight: 800;
+}
+.Billed_to {
+  margin-top: 2em;
+  line-height: 1.2em;
+}
+.Billed_to h3 {
+  font-size: 0.8em;
+}
+.Billed_to p {
+  font-size: 0.8em;
+}
+.items {
+  margin-top: 2em;
+  width: 100%;
+}
+.items td,
+.items th {
+  border: 1px solid #ddd;
+  font-size: 0.75em;
+  padding: 6px;
+  text-align: left;
+}
+.items tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.items tr:hover {
+  background-color: #ddd;
+}
+.items th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #ffffff;
+  color: black;
+}
+.inv_notes {
+  margin-top: 3em;
+  font-size: 0.8em;
+}
+@media (max-width: 680px) {
+  .ReviewModal_inner {
+    padding: 0.5em 0.3em;
+  }
+}

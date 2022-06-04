@@ -1,0 +1,68 @@
+.each_item {
+  margin: 0.5em 0em;
+  border-bottom: 1px solid black;
+  padding: 0.75em 0em;
+  display: flex;
+  align-items: center;
+}
+.each_item input {
+  display: inline;
+  padding: 8px;
+  margin: 0em 0.25em;
+}
+.item_name {
+  width: 480px;
+  min-width: 4.5em;
+}
+.quantity {
+  width: 5em;
+  min-width: 4em;
+}
+.price {
+  width: 8.5em;
+  min-width: 6em;
+  text-align: right;
+}
+.price input {
+  width: 100%;
+  min-width: 3em;
+  padding-left: 45%;
+}
+.amount {
+  margin-left: 0.75em;
+  font-size: 0.8em;
+  font-weight: 400;
+  width: 80px;
+  min-width: 75px;
+  overflow-x: auto;
+}
+.delete_act {
+  margin-left: 0.15em;
+  padding: 0.75em 0.75em;
+  width: fit-content;
+  background-color: red;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.delete_act:hover {
+  background-color: rgb(207, 0, 0);
+}
+
+@media (max-width: 415px) {
+  .quantity {
+    width: 3.5em;
+    min-width: 2.5em;
+  }
+  .price {
+    width: 6.5em;
+    min-width: 5.8em;
+  }
+  .amount {
+    width: 50px;
+    min-width: 50px;
+  }
+}
