@@ -5,6 +5,7 @@
   left: 0%;
   background-color: rgba(0, 0, 0, 0.63);
   height: 100vh;
+  z-index: 2;
 }
 
 .ReviewModal_outer {
@@ -23,6 +24,7 @@
   padding: 1.3em;
   animation-name: example;
   animation-duration: 300ms;
+  z-index: 3;
 }
 .generate_btn {
   display: flex;

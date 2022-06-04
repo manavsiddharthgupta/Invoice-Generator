@@ -4,6 +4,7 @@
   top: 1em;
   margin-left: 1.5em;
   height: fit-content;
+  z-index: 1;
 }
 .extra_feature {
   margin-top: 1em;
