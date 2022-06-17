@@ -24,3 +24,5 @@ npm start
 ```
 
 ### To - Do
+  - Download pdf
+  - send invoice through whatsapp, email
