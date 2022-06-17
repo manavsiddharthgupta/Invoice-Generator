@@ -5,7 +5,7 @@ You can Download as PDFs to your device, Send Mail or WhatsApp the Invoice.
 
 ## Live Demo
 
-In the project directory, you can run:
+[inv-gen.netlify.app](https://inv-gen.netlify.app/)
 
 ## ScreenShots
 
