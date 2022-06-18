@@ -24,5 +24,8 @@ npm start
 ```
 
 ### To - Do
-  - Download pdf
-  - send invoice through whatsapp, email
+
+<ul>
+  <li>[ ] Download pdf</li>
+  <li>[ ]  send invoice through whatsapp, email</li>
+</ul>
